@@ -1,6 +1,6 @@
 {
   "name": "chevereto",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "repository": "https://github.com/f97/chevereto.git",
   "author": "Huynh Duc Khoan <huynhduckhoan@gmail.com>",
@@ -9,13 +9,13 @@
     "test": "jest --detectOpenHandles"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "jest": "^26.0.1"
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.4.2"
   },
   "dependencies": {
     "request": "^2.88.2",
-    "request-promise": "^4.2.5"
+    "request-promise": "^4.2.6"
   }
 }

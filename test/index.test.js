@@ -38,7 +38,7 @@ describe('Chevereto class', () => {
   test('it rejects when upload false', async () => {
     expect.assertions(1);
     const chevereto = new Chevereto({
-      host,
+      host: '...',
       key,
     });
     await expect(chevereto.upload(imageURL)).rejects.toEqual(

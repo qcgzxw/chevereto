@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 const assert = require('assert');
 const Chevereto = require('../lib');
-const { host, key, imageURL } = require('./config');
+const { host, key, imageURL } = require('./config.example');
 
 describe('Chevereto class', () => {
   test('it throws when host, key is not provided', () => {

@@ -13,7 +13,7 @@ npm install -save chevereto
 const Chevereto = require('chevereto')
 
 /*
- * With chevereto.example.com being the domain where you install chevereto
+ * With chevereto.example.com is the domain where you install chevereto
  */
 
 const chevereto = new Chevereto({

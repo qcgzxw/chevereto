@@ -17,7 +17,7 @@ const Chevereto = require('chevereto')
  */
 
 const chevereto = new Chevereto({
-  host: chevereto.example.com, 
+  host: 'chevereto.example.com', 
   key: 'KEY' // Get it from https://chevereto.example.com/dashboard/settings/api
 });
 

@@ -60,3 +60,7 @@ config.js
 
 # next.js build output
 .next
+
+# Node
+package-lock.json
+yarn.lock
